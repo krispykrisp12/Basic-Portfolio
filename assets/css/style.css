@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Start of the header */
+header {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+/* Start of the nav bar */
+nav {
+    position: relative;
+    right: 200px;
+    float: right;
+    background: #0cb8a3;
+    list-style: none;
+    display: inline-block;
+    color: grey;
+    background: white;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+    font-size: 20px;
+    
+}
+
+ul li {
+   
+/* start of the h1 name */
+}
+
+#name {
+    margin-top: 0px;
+    position: relative;
+    float: left;
+    background: #0cb8a3;
+    color: white;
+    padding: 0px 5px 0px 5px;
+    left: 200px;
+    top: 5px;
+
+}
+
+/* Start of the content */
+#greenish {
+    color: #0cb8a3;
+}
+
+p {
+    line-height: 30px;
+}
+
+#wrapper {
+    border-top: solid 1px grey;
+    background: #ccc;
+    clear: both;
+    /* margin-top: 10px; */
+    overflow: auto;
+    height: auto;
+}
+.main {
+    clear: both;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: left;
+    margin-top: 30px;
+    background: white;
+    padding: 10px;
+    margin-bottom: 30px;
+    
+}
+
+.image-float {
+    float: left;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+/* Contact page (forms)*/
+.container {
+    color: grey;
+    font-size: 20px;
+    
+}
+.container input[type=text],
+.container input[type=email] {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    /* font-size: 20px; */
+}
+
+.container input[type=submit] {
+    background: #0cb8a3;
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+}
+
+/* Portfolio images and text */
+
+.image-1, .image-2, .image-3, .image-4, .image-5 {
+    background: #0cb8a3;
+    width: 200px;
+    text-align: center;
+    color: white;
+}
+
+.image-1 {
+    position: relative;
+    left: 10px;
+    top: -515px;
+}
+
+.image-2 {
+    position: relative;
+    left: 234px;
+    top: -560px;
+}
+
+.image-3 {
+    position: relative;
+    left: 10px;
+    top: -390px;
+}
+
+.image-4 {
+    position: relative;
+    left: 234px;
+    top: -435px;
+}
+
+.image-5 {
+    position: relative;
+    left: 10px;
+    top: -255px;
+}
+
+
+/* Start of the bottom section */
+
+#gline {
+    background: #0cb8a3;
+    padding: 5px;
+    margin: 0px;
+}
+
+footer {
+    color: white;
+    background: grey; 
+    padding: 20px;
+    text-align: center;
+}
