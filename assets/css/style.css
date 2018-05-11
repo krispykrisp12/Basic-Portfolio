@@ -16,10 +16,17 @@ nav {
     right: 200px;
     float: right;
     background: #4aaaa5;
-    list-style: none;
-    display: inline-block;
     color: #777;
     background: white;
+}
+
+nav a:hover {
+    background: #4aaaa5;
+    color: #fff;
+    padding: 30px;
+    font-size: 24px; 
+    margin: 0px;
+    text-transform: uppercase;
 }
 
 a {
@@ -56,6 +63,7 @@ p {
     line-height: 30px;
 }
 
+/* The wrapper and the content area */
 #wrapper {
     border-top: solid 1px grey;
     background: #ccc;
@@ -64,6 +72,8 @@ p {
     overflow: auto;
     height: auto;
 }
+
+
 .main {
     clear: both;
     margin-left: 200px;
@@ -78,6 +88,12 @@ p {
     
     
 }
+
+.mainish {
+    height: 700px;
+}
+
+/* Home page image */
 
 .image-float {
     float: left;
@@ -113,6 +129,11 @@ textarea {
     font-size: 20px;
     padding: 20px;
     color: white;
+}
+
+.container input[type=submit]:hover {
+    font-size: 30px;
+    text-transform: uppercase;
 }
 
 /* Portfolio images and text */
@@ -156,16 +177,23 @@ textarea {
 
 
 /* Start of the bottom section */
-
+/* gline is short for green line */
 #gline {
     background: #4aaaa5;
     padding: 5px;
     margin: 0px;
+    position: fixed;
+    bottom: 70px;
+    width: 110%;
 }
 
 footer {
+    position: fixed;
+    bottom: 0px;
+    width: 110%;
     color: #fff;
     background: #666; 
-    padding: 20px;
+    padding: 5px;
     text-align: center;
+    
 }
