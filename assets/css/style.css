@@ -3,6 +3,7 @@
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+
 /* Start of the header */
 header {
     margin-top: 0px;
@@ -74,6 +75,7 @@ p {
     /* margin-top: 10px; */
     overflow: auto;
     height: auto;
+    background-image: url(../images/concrete-texture.png);
 }
 
 
